@@ -35,18 +35,22 @@ You can run this project either using IntelliJ IDEA or directly from the command
    - Install [Java JDK 21](https://adoptium.net/)
    - Install [Maven](https://maven.apache.org/install.html)
 
-2. **Run the Project**:
+2. **Run the Project**
+
+**a) Clone the repository**
 ```bash
-# Clone the repository
 git clone https://github.com/irox-0/huffman.git
+```
+**b) Switch to the root directory**
+```bash
 cd huffman
-
-# Clone the repository
-git clone https://github.com/irox-0/huffman.git
-cd huffman
-
-# Build and run
+```
+**c) Build**
+```bash
 mvn clean package
+```
+**d) Run**
+```bash
 mvn exec:java -Dexec.mainClass="Main"
 ```
 ### Encoding Mode
